@@ -138,7 +138,9 @@
         <form name="formulario" action="ejecutar-codigo.php" method="post" id="miformulario">
          <div>
         <label for="mitexto">Nombre</label>
-        <input type="text" id="mitexto" placeholder="Ejemplo: Manuel Muñoz Rodríguez" required>
+        <input class="casilla" type="text" id="mitexto" placeholder="Ejemplo: Manuel" required><br>
+        <label for="apellidos">Apellidos</label>
+        <input class="casilla" type="text" id="apellidos" placeholder="Muñoz Cano" required>
       </div>
       <div>
         <label for="telefono">Teléfono</label>
@@ -167,12 +169,13 @@
         <input type="submit" value="Aviso legal" formaction="">
         <input type="reset" value="Reiniciar">
       </div>
+      <input class="enviar" type="submit" value="Enviar">
     </form>
       </div>
-      
+      </div>
       
       <!--Bloque de iconos de redes-->   
-      </div>
+  
       <footer>  
       <div class="container text-center">
         <div class="row">

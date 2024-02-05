@@ -58,7 +58,15 @@ form{
     background-color: antiquewhite;
     text-align: center;
 }
+.enviar{
+    font-size: 30px;
+    background-color: rgb(229, 55, 165);
+    color: aqua;
+}
 footer{
-    background-color: rgb(223, 237, 29);
+    background-color:rgb(255, 255, 134);
     width:100% !important;
+}
+.casilla{
+    width:80%;
 }
