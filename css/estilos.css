@@ -1,6 +1,11 @@
+.cuerpo{
+    background-image: url(../img/body.jpg);
+    background-size: contain !important;
+    color: white !important;
+}
 nav.bg-body-tertiary{
     --bs-bg-opacity: 1;
-    background-image: url(../img/fondo2.gif);
+    background-image: url(../img/fondo.gif);
 }
 i{
     color: palevioletred;
@@ -8,9 +13,17 @@ i{
     margin: 20px;
 }
 .titulo{
-    color: azure;
-    font-size: 35px;
-    background-image: url(../img/fondo.gif);
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    font-size: 50px;
+    background-image: url(../img/fondo2.gif);
+}
+.carousel-inner{
+    width: 1200px !important;
+    display: flex !important;
 }
 h1{
     text-align: center;
@@ -23,25 +36,34 @@ div.parrafos{
 .metro{
     font-size: 40px;
 }
+.colores11{
+    color: rgb(237, 184, 184);
+}
+.colores21{
+    color: rgb(190, 239, 236);
+}
+.colores31{
+    color: rgb(250, 249, 209);
+}
 .colores1{
-    background-color: rgb(238, 92, 92);
+    background-color: rgb(237, 184, 184);
+    padding: 100px !important;
+    color: rgb(69, 68, 68);
 }
 .colores2{
-    background-color: rgb(23, 194, 80);
+    background-color: rgb(190, 239, 236);
+    padding: 100px !important;
+    color: rgb(69, 68, 68);
 }
 .colores3{
-    background-color: rgb(233, 229, 25);
-}
-div.col{
-    padding: 20px;
+    background-color: rgb(250, 249, 209);
+    padding: 100px !important;
+    color: rgb(69, 68, 68);
 }
 .descripcion{
     display: flex;
     align-items: center;
     justify-content:center ;
-}
-div{
-    margin: 20px;
 }
 .texto{
     display: flex;
@@ -57,6 +79,7 @@ form{
     width: 100% !important;
     background-color: antiquewhite;
     text-align: center;
+    color: black;
 }
 .enviar{
     font-size: 30px;
