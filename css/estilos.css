@@ -26,6 +26,14 @@ i{
     color:rgb(26,217,174) !important;
     font-size: 20px !important;
 }
+.navegacion4{
+    color: rgb(210,67,166) !important;
+    font-size: 20px !important;
+}
+.navegacion5{
+    color: rgb(224,135,0) !important;
+    font-size: 20px !important;
+}
 .juego{
     font-size: 80px;
 }
@@ -51,6 +59,7 @@ div.parrafos{
 }
 .metro{
     font-size: 40px;
+    background-image: url(../img/fondo2.gif);
 }
 .text-center{
     width: 100%;
@@ -95,6 +104,10 @@ div.parrafos{
     background: rgb(49,18,79);
     background: linear-gradient(0deg, rgba(49,18,79,1) 100%, rgba(0,8,4,1) 100%);
     color: white !important;
+}
+.none{
+    color: white !important;
+    text-decoration: none;
 }
 button.btn:hover{
     background: rgb(111,63,148);
@@ -147,3 +160,6 @@ footer{
 .casilla{
     width:15%;
 }
+
+/*A partir de aquí estarán las clases propias de la página metro*/
+
