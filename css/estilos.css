@@ -13,6 +13,19 @@ i{
     font-size: 50px;
     margin: 20px;
 }
+.navegacion1{
+    color:rgb(208,172,227) !important;
+    font-size: 20px !important;
+    background: none !important;
+}
+.navegacion2{
+    color: rgb(218,62,62) !important;
+    font-size: 20px !important;
+}
+.navegacion3{
+    color:rgb(26,217,174) !important;
+    font-size: 20px !important;
+}
 .juego{
     font-size: 80px;
 }
@@ -72,10 +85,23 @@ div.parrafos{
     color: rgb(69, 68, 68);
     border-radius:30px;
 }
+/*
 .descripcion{
     display: flex;
     align-items: center;
     justify-content:center;
+}*/
+.btn{
+    background: rgb(49,18,79);
+    background: linear-gradient(0deg, rgba(49,18,79,1) 100%, rgba(0,8,4,1) 100%);
+    color: white !important;
+}
+button.btn:hover{
+    background: rgb(111,63,148);
+    background: linear-gradient(0deg, rgba(111,63,148,1) 100%, rgba(0,8,4,1) 100%);
+}
+.boton{
+    
 }
 ul{
     color: #dc0ec0;
